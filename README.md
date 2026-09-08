@@ -77,11 +77,11 @@ Validation included:
 
 ## 📋 Linux Auditing
 
-`auditd` was configured to monitor security-sensitive activities including:
+auditd was configured to monitor security-sensitive activities including:
 
 - Authentication activity
-- `/etc/passwd`
-- `/etc/shadow`
+- /etc/passwd
+- /etc/shadow
 - SSH configuration
 - Sensitive data directory
 - Identity and account changes
@@ -104,9 +104,30 @@ Cron was also used to schedule the hourly backup process.
 
 ## 💾 Backup & Recovery
 
-The project implemented an hourly backup process using the Linux `tar` utility.
+The project implemented an hourly backup process using the Linux tar utility.
 
 Example backup command:
 
-```bash
 tar -czf /backup/meridian/meridian-backup-$(date +\%Y\%m\%d-%H\%M).tar.gz /srv/meridian-data
+
+## 📸 Security Evidence
+
+The complete security validation evidence is provided in the PDF below.
+
+The evidence set contains **43 evidence captures (E01–E43)** covering:
+
+- Network configuration and connectivity
+- SSH hardening and key-based authentication
+- UFW firewall access control
+- Fail2ban SSH brute-force protection
+- Suricata IDS/IPS
+- auditd security monitoring
+- Postfix email alerting
+- Automated security auditing
+- Cron-based scheduling
+- Time synchronization and log rotation
+- Backup and restore validation
+- Least-privilege access restrictions
+
+📄 **Complete Evidence:**  
+[View E01–E43 Security Evidence](./Evidence/E01-E43-Security-Evidence.pdf)
