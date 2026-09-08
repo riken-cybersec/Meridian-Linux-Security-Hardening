@@ -131,3 +131,25 @@ The evidence set contains **43 evidence captures (E01–E43)** covering:
 
 📄 **Complete Evidence:**  
 [View E01–E43 Security Evidence](./Evidence/E01-E43_Security_Evidence.pdf)
+
+## 📂 Project Files
+
+### 🏗️ Security Architecture
+The security architecture diagram showing the placement of network and host-based security controls.
+
+[View Security Architecture](./Architecture/MERIDIAN%20SECURITY%20ARCHITECTURE.drawio.png)
+
+### 📸 Security Evidence
+Complete E01–E43 evidence screenshots covering the implementation and validation of the security controls.
+
+[View E01–E43 Security Evidence](./Evidence/E01-E43_Security_Evidence.pdf)
+
+### 📊 Case Study Presentation
+Complete presentation documenting the Meridian Financial Services security implementation.
+
+[View Case Study Presentation](./Presentation/Meridian_Security_Case_Study.pptx)
+
+### 📜 Security Audit Script
+Shell script used for the automated daily security audit.
+
+[View Daily Security Audit Script](./Scripts/meridian-daily-audit.sh)
